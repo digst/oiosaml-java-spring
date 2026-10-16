@@ -1,0 +1,112 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:kfobs="dk:gov:nemlogin:kfobsinternalschema" entityID="https://oiosaml.java-spring">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <Extensions xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+      <kfobs:IsOptOutSimulatedMoces>False</kfobs:IsOptOutSimulatedMoces>
+      <kfobs:AllowCredentialSpecification>False</kfobs:AllowCredentialSpecification>
+      <kfobs:OIOSAMLVersion>3</kfobs:OIOSAMLVersion>
+      <kfobs:SignatureRequestAllowed>True</kfobs:SignatureRequestAllowed>
+    </Extensions>
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGjzCCBMOgAwIBAgIUQpaK95SlzohcOPqdYAq0bH1PuyswQQYJKoZIhvcNAQEKMDSgDzANBglg
+hkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMGsxLTArBgNVBAMM
+JERlbiBEYW5za2UgU3RhdCBPQ0VTIHVkc3RlZGVuZGUtQ0EgMTETMBEGA1UECwwKVGVzdCAtIGN0
+aTEYMBYGA1UECgwPRGVuIERhbnNrZSBTdGF0MQswCQYDVQQGEwJESzAeFw0yNjA5MDIxOTA5MDJa
+Fw0yOTA5MDExOTA5MDFaMIGkMSAwHgYDVQQDDBdPSU9TQU1MLkphdmEgU1AgYW5kIFdTQzE3MDUG
+A1UEBRMuVUk6REstTzpHOjkwOTZmMTQxLTljN2EtNDQ1ZS1hN2JiLTQyMjlkMTRiZmIxMDEhMB8G
+A1UECgwYRGlnaXRhbGlzZXJpbmdzc3R5cmVsc2VuMRcwFQYDVQRhDA5OVFJESy0zNDA1MTE3ODEL
+MAkGA1UEBhMCREswggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC5JCchf6m6+7dZbqil
+yiQwL9ZmLSegkP1Xp15/zCgMkXiD3s0KeDCZJPYLoTJx7lFZqLT4AmTvdYUTTVig2uuNwlLt1v49
+8UBmENSBpJxafDqMwtG6uDOxupcoFeWB8jMZo7F2JpH+s7+/Uhhry6/CIbUAaAk04x/9K6gx48bw
+uP5QcicKTzEpqkgg9IjMTWENS0eFqFLf+/b3z2CX+FrAKXIGYRIx52ha94mQgzlHBz+iNsxtlRwQ
+g4CeMfEfgHvYH3rzjjzQn0Gp4k8v45Bi1BhJJwsp4PKzAlU43EhzSTMimkl7WgLg9TtPP2XkqyG8
+i11vAgbCxvzsL8odn/+Q00L9dk1qtlD6lCFDd6fBIbkxVofc/sOnG2cTDRwnrLufPVWjGOYqTCqc
+9iY05XZ8v3NjtYCgpY8zYWsrGu+DlKq0feO8uLWKUOkb/cBxcjr4D2WJqOQVrl7k31oDQ0EYBAjO
+HtEyzdnbsOXp0ClOMjMC1A5SHVw+KqiHB3Hhm8sCAwEAAaOCAYcwggGDMAwGA1UdEwEB/wQCMAAw
+HwYDVR0jBBgwFoAUfyif2XGZQuJ159c1di5NCCVtdl4wewYIKwYBBQUHAQEEbzBtMEMGCCsGAQUF
+BzAChjdodHRwOi8vY2ExLmN0aS1nb3YuZGsvb2Nlcy9pc3N1aW5nLzEvY2FjZXJ0L2lzc3Vpbmcu
+Y2VyMCYGCCsGAQUFBzABhhpodHRwOi8vY2ExLmN0aS1nb3YuZGsvb2NzcDAiBgNVHSAEGzAZMAgG
+BgQAj3oBATANBgsqgVCBKQEBAQMHATA7BggrBgEFBQcBAwQvMC0wKwYIKwYBBQUHCwIwHwYHBACL
+7EkBAjAUhhJodHRwczovL3VpZC5nb3YuZGswRQYDVR0fBD4wPDA6oDigNoY0aHR0cDovL2NhMS5j
+dGktZ292LmRrL29jZXMvaXNzdWluZy8xL2NybC9pc3N1aW5nLmNybDAdBgNVHQ4EFgQU0gXIqXjx
+ol+GwIFTEQWyN5c8gYwwDgYDVR0PAQH/BAQDAgWgMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUD
+BAIBBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAYEAwzedO3Ac6oYEggaG
+0ltgI13mKSBQ/BKPlRScr7tYHaHmX8/6lL11ruxIqW6dH5TkujOsYA0q45XCPIIsxGSZo4kos8ld
+P8Kf4r3/JUeCUmIwuB1R76/ZakiGHW0xwbruk5pmubA0G0Hk5qXixyw7WJQmQr37DlqiNYhxpFgA
+EVQ0RkJwrRef3pJB3JzbM62d7spGpjr6SgGcGUxjuB/djLxNbw1T/eYuBoP/4XhgFC5z8w/kxfSK
+tX8zG9j7D3LUSO5ouZxu3moP63Dxc/kEzf4vCWF0k71tLOvYeSiGrkbszu/KBsmskSDwUhowfWWj
+GIqWmkKU4Jx4B2VMnXTVJpvhAR4D0eXtJtsqH0yjVrTygissobaD3EoSLQoZD71G59IkNKgu7sr0
++jEc6IQfYhqxb3B/k4R6A/G2LJ/mSJg52L0cQhuN8i8YPX1lXB5Hs1rC2OqR5Vz4b8OC58MJMIMv
+3QiKVyqY26i7ysqrrcQ3Q/LKhA44+7KuE8631WND</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGjzCCBMOgAwIBAgIUQpaK95SlzohcOPqdYAq0bH1PuyswQQYJKoZIhvcNAQEKMDSgDzANBglg
+hkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMGsxLTArBgNVBAMM
+JERlbiBEYW5za2UgU3RhdCBPQ0VTIHVkc3RlZGVuZGUtQ0EgMTETMBEGA1UECwwKVGVzdCAtIGN0
+aTEYMBYGA1UECgwPRGVuIERhbnNrZSBTdGF0MQswCQYDVQQGEwJESzAeFw0yNjA5MDIxOTA5MDJa
+Fw0yOTA5MDExOTA5MDFaMIGkMSAwHgYDVQQDDBdPSU9TQU1MLkphdmEgU1AgYW5kIFdTQzE3MDUG
+A1UEBRMuVUk6REstTzpHOjkwOTZmMTQxLTljN2EtNDQ1ZS1hN2JiLTQyMjlkMTRiZmIxMDEhMB8G
+A1UECgwYRGlnaXRhbGlzZXJpbmdzc3R5cmVsc2VuMRcwFQYDVQRhDA5OVFJESy0zNDA1MTE3ODEL
+MAkGA1UEBhMCREswggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC5JCchf6m6+7dZbqil
+yiQwL9ZmLSegkP1Xp15/zCgMkXiD3s0KeDCZJPYLoTJx7lFZqLT4AmTvdYUTTVig2uuNwlLt1v49
+8UBmENSBpJxafDqMwtG6uDOxupcoFeWB8jMZo7F2JpH+s7+/Uhhry6/CIbUAaAk04x/9K6gx48bw
+uP5QcicKTzEpqkgg9IjMTWENS0eFqFLf+/b3z2CX+FrAKXIGYRIx52ha94mQgzlHBz+iNsxtlRwQ
+g4CeMfEfgHvYH3rzjjzQn0Gp4k8v45Bi1BhJJwsp4PKzAlU43EhzSTMimkl7WgLg9TtPP2XkqyG8
+i11vAgbCxvzsL8odn/+Q00L9dk1qtlD6lCFDd6fBIbkxVofc/sOnG2cTDRwnrLufPVWjGOYqTCqc
+9iY05XZ8v3NjtYCgpY8zYWsrGu+DlKq0feO8uLWKUOkb/cBxcjr4D2WJqOQVrl7k31oDQ0EYBAjO
+HtEyzdnbsOXp0ClOMjMC1A5SHVw+KqiHB3Hhm8sCAwEAAaOCAYcwggGDMAwGA1UdEwEB/wQCMAAw
+HwYDVR0jBBgwFoAUfyif2XGZQuJ159c1di5NCCVtdl4wewYIKwYBBQUHAQEEbzBtMEMGCCsGAQUF
+BzAChjdodHRwOi8vY2ExLmN0aS1nb3YuZGsvb2Nlcy9pc3N1aW5nLzEvY2FjZXJ0L2lzc3Vpbmcu
+Y2VyMCYGCCsGAQUFBzABhhpodHRwOi8vY2ExLmN0aS1nb3YuZGsvb2NzcDAiBgNVHSAEGzAZMAgG
+BgQAj3oBATANBgsqgVCBKQEBAQMHATA7BggrBgEFBQcBAwQvMC0wKwYIKwYBBQUHCwIwHwYHBACL
+7EkBAjAUhhJodHRwczovL3VpZC5nb3YuZGswRQYDVR0fBD4wPDA6oDigNoY0aHR0cDovL2NhMS5j
+dGktZ292LmRrL29jZXMvaXNzdWluZy8xL2NybC9pc3N1aW5nLmNybDAdBgNVHQ4EFgQU0gXIqXjx
+ol+GwIFTEQWyN5c8gYwwDgYDVR0PAQH/BAQDAgWgMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUD
+BAIBBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAYEAwzedO3Ac6oYEggaG
+0ltgI13mKSBQ/BKPlRScr7tYHaHmX8/6lL11ruxIqW6dH5TkujOsYA0q45XCPIIsxGSZo4kos8ld
+P8Kf4r3/JUeCUmIwuB1R76/ZakiGHW0xwbruk5pmubA0G0Hk5qXixyw7WJQmQr37DlqiNYhxpFgA
+EVQ0RkJwrRef3pJB3JzbM62d7spGpjr6SgGcGUxjuB/djLxNbw1T/eYuBoP/4XhgFC5z8w/kxfSK
+tX8zG9j7D3LUSO5ouZxu3moP63Dxc/kEzf4vCWF0k71tLOvYeSiGrkbszu/KBsmskSDwUhowfWWj
+GIqWmkKU4Jx4B2VMnXTVJpvhAR4D0eXtJtsqH0yjVrTygissobaD3EoSLQoZD71G59IkNKgu7sr0
++jEc6IQfYhqxb3B/k4R6A/G2LJ/mSJg52L0cQhuN8i8YPX1lXB5Hs1rC2OqR5Vz4b8OC58MJMIMv
+3QiKVyqY26i7ysqrrcQ3Q/LKhA44+7KuE8631WND</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:8443/saml2/logout" ResponseLocation="https://localhost:8443/saml2/logout" />
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/saml2/logout" ResponseLocation="https://localhost:8443/saml2/logout" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/saml2/login" index="0" isDefault="true" />
+    <AttributeConsumingService index="0" isDefault="true">
+      <ServiceName xml:lang="da">SP</ServiceName>
+      <RequestedAttribute Name="https://data.gov.dk/model/core/specVersion" FriendlyName="SpecVersion" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/bootstrapToken" FriendlyName="NsisAaL" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/privilegesIntermediate" FriendlyName="Privileges" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/concept/core/nsis/loa" FriendlyName="NsisLoA" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true" />
+      <RequestedAttribute Name="https://data.gov.dk/concept/core/nsis/ial" FriendlyName="NsisIaL" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/concept/core/nsis/aal" FriendlyName="NsisAaL" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/fullName" FriendlyName="FullName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/firstName" FriendlyName="FirstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/lastName" FriendlyName="LastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/alias" FriendlyName="Alias" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/email" FriendlyName="Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/cprNumber" FriendlyName="Cpr" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/age" FriendlyName="Age" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/cprUuid" FriendlyName="CprUUID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/dateOfBirth" FriendlyName="DateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/person/pid" FriendlyName="Pid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/uuid/persistent" FriendlyName="ProfessionalPersistentUUID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/rid" FriendlyName="Rid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/cvr" FriendlyName="Cvr" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/orgName" FriendlyName="OrganizationName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/productionUnit" FriendlyName="ProductionUnit" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/seNumber" FriendlyName="SeNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+      <RequestedAttribute Name="https://data.gov.dk/model/core/eid/professional/authorizedToRepresent" FriendlyName="AuthorizedToRepresent" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+</EntityDescriptor>

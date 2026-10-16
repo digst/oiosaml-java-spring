@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>OIOSAML Spring demo</title>
+</head>
+<body>
+<h1>Logget ind</h1>
+<p>NameID: <span th:text="${nameId}">-</span></p>
+<table>
+    <tr th:each="attribute : ${attributes}">
+        <td th:text="${attribute.key}">navn</td>
+        <td th:text="${attribute.value}">værdi</td>
+    </tr>
+</table>
+<form th:action="@{/logout}" method="post">
+    <button type="submit">Log ud</button>
+</form>
+</body>
+</html>
